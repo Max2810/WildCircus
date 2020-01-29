@@ -1,30 +1,34 @@
 
 .Header {
-  display: flex;
-  justify-content: center;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 4em;
+}
+
+.liste-menu {
+  
 }
 
 .haut {
-  width: 100%;
+  /* width: 100%; */
   font-size: 20px;
-  margin: auto
+  /* margin: auto */
 }
 
 .menu {
   background-color: darkred;
   border-radius: 20px;
-  width: 80%;
-  text-align: center;
+  width: 90%;
   height: 50px;
-  line-height: 50px;
+  line-height: 8vh;
 }
 
 .menu li {
   list-style-type: none;
   display: inline-block;
   font-size: 30px;
-  margin: auto
+  /* margin: auto */
 }
 
 .menu li a {
@@ -48,3 +52,13 @@ ul {
   justify-content: space-evenly;
 }
 
+h1 {
+  font-family: 'Amatic SC', cursive;
+  color: orange;
+  font-size: 60px;
+  margin-left: 5.5em;
+  width: 40%;
+  text-align: center;
+  height: 5vh;
+  line-height: 40px;
+}
