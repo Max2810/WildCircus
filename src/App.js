@@ -3,6 +3,8 @@ import Header from './components/Header'
 import Performances from './components/Performances'
 import AboutUs from './components/AboutUs'
 import Prices from './components/Prices'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 import './App.css';
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
       <Performances />
       <AboutUs />
       <Prices />
+      <Contact />
+      <Footer />
     </div>
   );
 }
