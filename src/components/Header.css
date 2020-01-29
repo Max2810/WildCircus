@@ -1,28 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
 
-.App {
-  text-align: center;
+body {
   background: url("https://zupimages.net/up/19/27/zeu9.jpg") no-repeat center fixed;
   background-size: auto;
   margin: 20;
   padding: 0;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-}
+} */
 
-h1 {
+/* h1 {
   font-family: 'Amatic SC', cursive;
   color: orange;
   font-size: 60px;
   margin: auto;
-  padding-top: 1%;
   width: 380px;
   text-align: center;
   height: 50px;
   line-height: 40px;
-}
+} */
 
-h2 {
+/* h2 {
   font-family: 'Amatic SC', cursive;
   background-color: darkred;
   color: #cdb068;
@@ -32,47 +30,52 @@ h2 {
   text-align: center;
   height: 50px;
   line-height: 50px;
-}
+} */
 
-h3 {
+/* h3 {
   font-family: 'Amatic SC', cursive;
   font-size: 35px;
   font-weight: bold;
   color: orange;
-}
+} */
 
-p {
+/* p {
   text-align: center;
   color: orange;
-}
+} */
 
-.image {
+/* .image {
   border-radius: 20px;
   width: 220px;
-}
+} */
 
-li > a {
+/* li>a {
   font-family: 'Amatic SC', cursive;
-}
+} */
 
-.conteneur {
-  width: 100%;
+/* .conteneur {
+  width: 980px;
   font-size: 20px;
   margin: auto
+} */
+
+.Header {
+  display: flex;
+  justify-content: center;
 }
 
-/* .haut {
-  width: 100%;
-  font-size: 20em;
+.haut {
+  width: 100%px;
+  font-size: 20px;
   margin: auto
 }
 
 .menu {
   background-color: darkred;
   border-radius: 20px;
-  width: 80%;
+  width: 980px;
   text-align: center;
-  height: 9vh;
+  height: 50px;
   line-height: 50px;
 }
 
@@ -95,85 +98,22 @@ li > a {
 .menu li a:hover {
   text-decoration: none;
   color: #cdb068;
-} */
+}
 
 ul {
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.contenu {
+/* .contenu {
   margin: auto
-}
+} */
 
-.contenu li {
+/* .contenu li {
   list-style-type: none;
   display: inline-block;
   text-align: center;
   margin: auto;
-}
-
-.flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.Tableau {
-  letter-spacing: 1px;
-}
-
-
-td, th {
-  border: 1px solid rgb(190, 190, 190);
-  padding: 10px 20px;
-  border-radius: 20px;
-}
-
-th {
-  background-color: #cdb068;
-  color: red;
-}
-
-.th1 {
-  display: table-header-group;
-}
-
-td {
-  text-align: center;
-  font-weight: bold;
-  color: red;
-}
-
-tr:nth-child(even) td {
-  background-color: #cdb068;
-}
-
-tr:nth-child(odd) td {
-  background-color: #cdb068;
-}
-
-caption {
-  padding: 10px;
-}
-
-.Contact {
-  text-align: center;
-}
-
-.Label {
-  color: white;
-}
-
-.footer {
-  text-align: center;
-}
-
-.hdp {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 50px;
-  height: 50px;
-  display: block;
-}
+} */
