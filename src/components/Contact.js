@@ -46,7 +46,7 @@ class Contact extends Component {
               <div className='logo-ok'>
                 <img src={logoOk} alt='logo Ok'/>
               </div>
-              <p className="user-added">Sending</p>
+              <p className="msg-sending">Sending</p>
             </div> : null}
         </form>
       </div>
