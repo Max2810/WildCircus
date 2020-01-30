@@ -120,7 +120,8 @@ ul {
   display: flex;
 }
 
-.Tableau {
+.tableau {
+  margin-left: 6.5em;
   letter-spacing: 1px;
 }
 
@@ -159,10 +160,18 @@ caption {
 }
 
 .Contact {
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
 .Label {
+  display: flex;
+  flex-direction: column;
+  margin-left: 28em;
+  margin-bottom: 2em;
+  border-radius: 20px;
+  width: 30%;
   color: white;
 }
 
