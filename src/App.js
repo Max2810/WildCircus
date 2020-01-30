@@ -5,6 +5,7 @@ import AboutUs from './components/AboutUs'
 import Prices from './components/Prices'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import {CircleArrow as ScrollUpButton} from "react-scroll-up-button"; 
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Prices />
       <Contact />
       <Footer />
+      <ScrollUpButton />
     </div>
   );
 }
