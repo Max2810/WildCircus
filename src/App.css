@@ -178,12 +178,17 @@ caption {
 .footer {
   text-align: center;
 }
-
-.hdp {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 50px;
-  height: 50px;
-  display: block;
+.logo-ok{
+  Width: 30%;
+  margin-left: 5em;
+  margin-top: 0.3em;
+}
+.logo-ok img{
+  width: 50%;
+  margin-left: 5em;
+}
+.user-added{
+  font-size: 0.6em;
+  width:70%;
+  margin-left: 6em;
 }

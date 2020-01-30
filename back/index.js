@@ -2,8 +2,10 @@ const connection = require('./config/conf');
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
+const cors = require('cors');
 const port = 8000;
 
+app.use(cors())
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
   extended: true
@@ -12,6 +14,7 @@ app.use(bodyParser.urlencoded({
 
 app.post('/api/contact', (req, res) => {
   const formData = req.body
+  console.log(formData)
   connection.query('INSERT INTO contact (email, message) VALUES (?,?)', [formData.email, formData.message], (err, results) => {
 
     if (err) {
