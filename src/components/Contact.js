@@ -40,7 +40,7 @@ class Contact extends Component {
           <input type="email" name="email" id="email" onChange={this.change}/>
           <label forHtml="message">Message :</label>
           <textarea cols="20" rows="5" name="message" id="message" onChange={this.change}></textarea>
-          <input type="submit" value="Send" onClick={this.submit}/>
+          <button type="submit" value="Send" onClick={this.submit}>Send</button>
           {this.state.isSend ?
             <div className='okUser'>
               <div className='logo-ok'>
