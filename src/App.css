@@ -1,13 +1,14 @@
 * {
+  background-color: rgb(41, 41, 41);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 .App {
-  background-color: rgb(236, 101, 47);
+  background-color: rgb(41, 41, 41);
   /* text-align: center; */
-  background: url("https://zupimages.net/up/19/27/zeu9.jpg") no-repeat center fixed;
+  /* background: url("https://zupimages.net/up/19/27/zeu9.jpg") no-repeat center fixed; */
   background-size: auto;
   margin: 0;
   padding: 0;
@@ -188,7 +189,28 @@ button {
   text-align: center;
 }
 
-@media screen and (min-width: 620px) {
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* margin-top: 1em; */
+  /* position: fixed; */
+  bottom: 4em; 
+  width: 100%;
+  height: 11%;
+}
+
+.Home {
+  text-align: center;
+  /* background: url("https://zupimages.net/up/20/05/nzne.jpg") no-repeat center fixed; */
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+}
+
+@media screen and (min-width: 720px) {
 
 
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');

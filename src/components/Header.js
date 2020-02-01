@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import { NavLink } from 'react-router-dom'
 
 function Header() {
   return (
@@ -7,10 +8,10 @@ function Header() {
         <h1>Wild Circus</h1>
         <nav className="menu">
           <ul className="liste-menu">
-            <li><a href="#Performances">Performances</a></li>
-            <li><a href="#About_Us">About Us</a></li>
-            <li><a href="#Prices">Prices</a></li>
-            <li><a href="#Contact_Us">Contact</a></li>
+            <li><NavLink activeClassName="active" to="/performances">Performances</NavLink></li>
+            <li><NavLink activeClassName="active" to="/aboutUs">About Us</NavLink></li>
+            <li><NavLink activeClassName="active" to="/prices">Prices</NavLink></li>
+            <li><NavLink activeClassName="active" to="/contact">Contact</NavLink></li>
           </ul>
         </nav>
     </div>

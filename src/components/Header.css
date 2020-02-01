@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  background: url("https://zupimages.net/up/19/27/zeu9.jpg") no-repeat center fixed;
+  /* background: url("https://zupimages.net/up/19/27/zeu9.jpg") no-repeat center fixed; */
 }
 
 .Header > h1 {
