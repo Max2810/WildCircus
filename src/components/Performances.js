@@ -3,7 +3,7 @@ import React from 'react'
 function Performances() {
   return (
     <div className="contenu">   
-      <h2><a id="Performances"></a>Performances</h2>
+      <h2>Performances</h2>
       <ul className="flex">
         <li>
           <h3>Laugh</h3>

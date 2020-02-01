@@ -1,5 +1,5 @@
 import React from 'react'
-import Reservation from './components/Reservation'
+import Reservation from './Reservation'
 
 function Prices() {
   return (

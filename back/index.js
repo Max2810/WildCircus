@@ -27,6 +27,21 @@ app.post('/api/contact', (req, res) => {
 });
 
 
+app.post('/api/reservation', (req, res) => {
+  const formData = req.body
+  console.log(formData)
+  connection.query('INSERT INTO reservation (email, nbticket, date) VALUES (?,?,?)', [formData.email, formData.nbticket, formData.date], (err, results) => {
+
+    if (err) {
+      console.log(err);
+      res.status(500).send("Erreur lors de la reservation");
+    } else {
+      res.sendStatus(200);
+    }
+  });
+});
+
+
 
 
 app.listen(port, (err) => {
