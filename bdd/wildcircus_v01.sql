@@ -8,3 +8,11 @@ CREATE TABLE `contact`(
   `message` TEXT,
   PRIMARY KEY (`contactID`) 
 );
+
+CREATE TABLE `reservation`(
+  `reservationID` INT NOT NULL AUTO_INCREMENT,
+  `email` VARCHAR(255) NOT NULL,
+  `nbticket` TEXT,
+  `date` DATE NOT NULL,
+  PRIMARY KEY (`reservationID`) 
+);

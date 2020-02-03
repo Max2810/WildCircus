@@ -28,7 +28,9 @@ h2 {
   /* height: 50px; */
   /* line-height: 50px; */
   /* margin-left: 1.6em; */
-  margin: 0.5em;
+  margin-left: 0.7em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 h3 {
@@ -142,7 +144,7 @@ input {
 }
 
 button {
-  width: 30%;
+  width: 35%;
   border-radius: 5px;
   color: orange;
   margin-left: 5em;
@@ -154,14 +156,32 @@ button {
   margin-left: 5em;
   margin-top: 0.3em;
 }
+
 .logo-ok img{
   width: 40%;
-  margin-right: 1.5em;
+  margin-right: 1.3em;
 }
 .msg-sending{
-  font-size: 0.6em;
+  font-size: 1em;
   width:70%;
-  margin-left: 3em;
+  margin-left: 2.2em;
+}
+
+.logo-ok2{
+  Width: 40%;
+  margin-left: 5.4em;
+  margin-top: 0.3em;
+}
+
+.logo-ok2 img{
+  width: 40%;
+  margin-right: 1.3em;
+}
+
+.msg-reserved {
+  font-size: 1em;
+  width:70%;
+  margin-left: 2.4em;
 }
 
 .personnalProfile {

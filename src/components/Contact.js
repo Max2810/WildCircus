@@ -34,7 +34,7 @@ class Contact extends Component {
   render() {
     return(
       <div className="Contact">
-        <h2><a id="Contact_Us"></a>Contact Us</h2>
+        <h2>Contact Us</h2>
         <form className="Label">
           <label forHtml="email">Email :</label>
           <input type="email" name="email" id="email" onChange={this.change}/>

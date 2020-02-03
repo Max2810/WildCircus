@@ -1,9 +1,10 @@
 import React from 'react'
+import Reservation from './Reservation'
 
 function Prices() {
   return (
     <div>
-      <h2><a id="Prices"></a>Prices</h2>
+      <h2>Prices</h2>
       <div className="tableau">
         <table>
           <thead>
@@ -33,6 +34,7 @@ function Prices() {
           </tbody>
         </table>
       </div>
+      <Reservation />
     </div>
   );
 }
