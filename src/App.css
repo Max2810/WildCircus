@@ -230,6 +230,12 @@ button {
   -moz-background-size: cover;
 }
 
+.perfo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 @media screen and (min-width: 720px) {
 
 
