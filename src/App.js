@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import {CircleArrow as ScrollUpButton} from "react-scroll-up-button"; 
 import { Switch, Route } from 'react-router-dom';
 import './App.css';
+import PerformancesList from './components/PerformancesList';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={Performances}/>
-        <Route path="/Performances"component={Performances}/>
+        <Route path="/Performances"component={PerformancesList}/>
         <Route path="/AboutUs"component={AboutUs}/>
         <Route path="/Prices"component={Prices}/>
         <Route path="/Contact" component={Contact}/>
